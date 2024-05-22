@@ -1,0 +1,102 @@
+body {
+    background-color: black;
+    color: white;
+}
+.navbar {
+    background-color: #b7387c;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+}
+.navbar-brand {
+    color: white;
+}
+
+h1 {
+    color: #fb94c6;
+}
+.product-title, .product-price, .service-title {
+    color: white;
+}
+.footer {
+    background-color: #b7387c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+/*#fixed-image {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+#bienvenido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-fluid {
+    border: 10px solid #b7387c;
+    border-radius: 50px; /* Borde sólido blanco */
+}
+
+/*Boton wasap*/
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+ }
+ svg {
+    width: 80px;
+    filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));
+ }
+ circle {
+    fill: #b7387c;
+ }
+ path {
+   
+    fill: #fb94c6;
+ }
+
+ /*LINKS*/
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color:white;
+    
+}
+a:hover{
+    color:pink;
+}	
+
+.product-title,.product-price {
+            color: #b7387c;
+}
+
+.service-title {
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+.frasesfinales{
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.content {
+    margin-bottom: 80px;
+}
